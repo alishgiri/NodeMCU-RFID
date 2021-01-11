@@ -10,8 +10,8 @@ int i = 0;
 int statusCode;
 String webPageHtml;
 String wifiListHtmlOlTag;
-const char *ssid = "Default_SSID";
-const char *passphrase = "Default_Password";
+const char* ssid = "Default_SSID";
+const char* passphrase = "Default_Password";
 
 //Function Decalration
 void setupAP(void);
