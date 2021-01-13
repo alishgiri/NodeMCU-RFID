@@ -10,8 +10,8 @@ int i = 0;
 int statusCode;
 String webPageHtml;
 String wifiListHtmlOlTag;
-const char* ssid = "Default_SSID";
-const char* passphrase = "Default_Password";
+const char *ssid = "Default_SSID";
+const char *passphrase = "Default_Password";
 
 //Function Decalration
 void setupAP(void);
@@ -113,7 +113,7 @@ void setup()
   }
 }
 
-//----------------------------------------------- Fuctions used for WiFi credentials saving and connecting to it which you do not need to change
+//-------------------- Fuctions used for WiFi credentials saving and connecting to it which you do not need to change
 bool testWifi(void)
 {
   int c = 0;
